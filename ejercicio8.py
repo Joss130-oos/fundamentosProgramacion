@@ -13,3 +13,12 @@ variable1 = input("Ingresar venta: ")
 variable1 = int(variable1)
 variable2 = input("Ingresar venta: ")
 variable2 = int(variable2)
+variable3 = input("Ingresar venta: ")
+variable3 = int(variable3)
+sueldo = input("Ingresar sueldo: ")
+sueldo = int(sueldo)
+v1 = (variable1*10)/100
+v2 = (variable2*10)/100
+v3 = (variable3*10)/100
+dinero = (sueldo + v1 + v2 + v3)
+print("Tu sueldo es", dinero , "pesos")
