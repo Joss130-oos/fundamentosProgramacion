@@ -16,12 +16,13 @@ parcial2 = input("Ingresar calificación del parcial 2: ")
 parcial2 = int(parcial2)
 parcial3 = input("Ingresar calificación del parcial 3: ")
 parcial3 = int(parcial3)
-examén = input("Ingresar calificación del examén final: ")
-examén = int(examén)
+examen = input("Ingresar calificación del examén final: ")
+examen = int(examen)
 trabajo = input("Ingresar calificación del trabajo final: ")
 trabajo = int(trabajo)
-promedio = ((parcial1 + parcial2 + parcial3)*55)/100
-examénfinal = (examén*30)/100
+promedio = (parcial1 + parcial2 + parcial3)/3
+promediofinal = (promedio*55)/100
+examenfinal = (examen*30)/100
 trabajofinal = (trabajo*15)/100
-calificaciónfinal = (promedio + examénfinal + trabajofinal)
-print("Calificación final: ",calificaciónfinal)
+calificacionfinal = (promediofinal + examenfinal + trabajofinal)
+print("Calificación final: ",calificacionfinal)
